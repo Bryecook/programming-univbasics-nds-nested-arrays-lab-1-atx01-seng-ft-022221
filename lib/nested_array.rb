@@ -35,15 +35,15 @@ produce_sorted= [
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
     ]
-produce[0][0]="Eggplant"
-produce[0][1]="Grapefruit"
-produce[0][3]="Pineapple"
-produce[0][4]="Watermelon"
-produce[1][0]="Asparagus"
-produce[1][1]="Avocadoes"
-produce[1][3]="Potatoes"
-produce[1][4]="Strawberries"
-produce
+produce_sorted[0][0]="Eggplant"
+produce_sorted[0][1]="Grapefruit"
+produce_sorted[0][3]="Pineapple"
+produce_sorted[0][4]="Watermelon"
+produce_sorted[1][0]="Asparagus"
+produce_sorted[1][1]="Avocadoes"
+produce_sorted[1][3]="Potatoes"
+produce_sorted[1][4]="Strawberries"
+produce_sorted
 end
 
 def matrix_lookup(matrix, row, column)
