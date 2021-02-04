@@ -38,6 +38,7 @@ def sorted_matrix
   
   sorted_matrix=produce.sort
   puts sorted_matrix
+  Return
 end
 
 def matrix_lookup(matrix, row, column)
