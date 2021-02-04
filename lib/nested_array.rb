@@ -36,7 +36,7 @@ def sorted_matrix
     ORGANIC_PRODUCE
     ]
   
-  sorted_matrix=produce.sortproduce= 
+  sorted_matrix=produce.sort{ |a, b| a <=> b }
   sorted_matrix
 end
 
