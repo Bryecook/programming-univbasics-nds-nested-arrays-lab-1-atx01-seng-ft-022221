@@ -31,19 +31,9 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-produce_sorted= [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
-    ]
-produce_sorted[0][0]="Eggplant"
-produce_sorted[0][1]="Grapefruit"
-produce_sorted[0][3]="Pineapple"
-produce_sorted[0][4]="Watermelon"
-produce_sorted[1][0]="Asparagus"
-produce_sorted[1][1]="Avocadoes"
-produce_sorted[1][3]="Potatoes"
-produce_sorted[1][4]="Strawberries"
-produce_sorted
+CONVENTIONAL_PRODUCE.sort
+ORGANIC_PRODUCE.sort
+
 end
 
 def matrix_lookup(matrix, row, column)
