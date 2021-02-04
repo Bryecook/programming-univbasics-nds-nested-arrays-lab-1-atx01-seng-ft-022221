@@ -43,7 +43,7 @@ produce[1][0]="Asparagus"
 produce[1][1]="Avocadoes"
 produce[1][3]="Potatoes"
 produce[1][4]="Strawberries"
-
+produce
 end
 
 def matrix_lookup(matrix, row, column)
